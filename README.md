@@ -12,7 +12,7 @@ python main.py
 
 
 ### Citation
-If you find this paper, knowledge graph, or code useful for your research, please cite our paper:
+If you find this paper, code useful for your research, please cite our paper:
 ```
 @inproceedings{wang2023imputing,
   title={Imputing Brain Measurements Across Data Sets via Graph Neural Networks},
