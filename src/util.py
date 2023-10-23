@@ -138,7 +138,7 @@ if __name__ == "__main__":
     adjacency_matrix, region_name_list = build_adjacency_matrices(regionaparc_name_list, regionaseg_name_list)
     
     # Load Features
-    file_path = '/Users/wangyixin/Desktop/research/projects/Stanford/Kilian/abcd_ncanda_transfer_learning/ncanda/ncanda_lrdata_cor2_noscale_allfeatures.csv'
+    file_path = '/Users/xxx.csv'
     ncanda_allfeat, G_label = load_features(file_path)
     G_list = create_graph(ncanda_allfeat, G_label, region_name_list, adjacency_matrix)
     print(G_list)
